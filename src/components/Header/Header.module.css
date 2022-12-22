@@ -1,0 +1,32 @@
+.header{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(144, 36, 17);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.imgContainer {
+    width: 110%;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.imgContainer img{
+    object-fit: cover;
+    width: 110%;
+    height: 100%;
+    transform: rotateZ(-5deg) translateX(-10px) translateX(-10px) translateY(-40px);
+}

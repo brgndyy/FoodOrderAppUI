@@ -1,0 +1,24 @@
+.cartButton{
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.totalCartNum{
+    background-color: rgb(199, 79, 36);
+    padding: 5px;
+    border-radius: 30px;
+    width: 50px;
+}
+
+.cartButton:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
